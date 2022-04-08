@@ -1,0 +1,54 @@
+{
+  "intents":[
+    {
+      "tag": "saludos",
+      "patterns": ["hola", "buenas", "buenos dias", "buenas tardes"],
+      "responses": ["Gracias por comunicarte conmigo, soy ClearpayBot. ¿En qué puedo ayudarte?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["adios", "hasta luego", "hasta pronto"],
+      "responses": ["Ha sido un placer atenderte, hasta la próxima"]
+    },
+    {
+      "tag": "general",
+      "patterns": ["Clearpay", "quienes sois", "quien eres", "que servicio ofreceis"],
+      "responses": ["Clearpay te ofrece la posibilidad de realizar compras ahora y pagarlas más tarde, en cuatro pagos sin intereses"]
+    },
+     {
+      "tag": "pago",
+      "patterns": ["como añadir pago", "añadir un metodo de pago", "como pagar", "como puedo pagar", "añadir un metodo de pago nuevo", "borrar metodo de pago"],
+      "responses": ["Puedes añadir un método de pago clicando en el icono de la billetera a la izquierda del menú"]
+    },
+    {
+      "tag": "baja",
+      "patterns": ["darme de baja ", "invalidar la cuenta", "borrarme la cuenta", "como invalidar la cuenta", "como dar de baja","baja", "quiero darme de baja"],
+      "responses": ["Para darte de baja puedes contactar con nosotros mandando un correo a  support@clearpay.com"]
+    },
+    {
+      "tag": "metodos",
+      "patterns": ["tipo de tarjeta puedo usar", "tarjetas de credito posibles",  "tarjetas de prepago", "tarjetas de débito o crédito", "que tarjetas aceptais", "aceptais tarjetas de débito"],
+      "responses": ["Aceptamos tarjetas de crédito o débito, masterCard o visa"]
+    },
+    {
+      "tag": "tonto",
+      "patterns": ["no me entiendes", "eres tonto", "no me ayudas", "gilipollas", "eres retrasado"],
+      "responses": ["Lo siento, aún estoy aprendiendo, ¿puedes repetir la pregunta?",  "Lo siento, aún estoy aprendiendo, si no puedo ayudarte nocontacta con nosotros (support@clearpay.com)"]
+    },
+     {
+      "tag": "adelantar",
+      "patterns": ["antes de la fecha de expiracion", "pagar una cuota por adelantado", "por adelantado un pago", "puedo pagar por adelantado", "pagar antes","como adelantar pagamiento"],
+      "responses": ["En tus cuotas, tienes la opción de ver tus pagos pendientes y mediante el botón de pagar adelantar un pago antes del vencimiento"]
+    },
+    {
+      "tag": "pendientes",
+      "patterns": ["encuentro mis pagos pendientes", "ver pagos pendientes", "ver mis pagos pendientes","donde estan mis pagos pendientes", "quiero ver pagos pendientes", "que me queda por pagar"],
+      "responses": ["Puedes consultar tus pagos pendientes en el icono de la izquierda en tus cuotas"]
+    },
+     {
+      "tag": "moroso",
+      "patterns": ["no he podido pagar a tiempo", "tengo un plazo sin pagar", "que pasa si no pago","no he pagado un plazo", "no he pagado", "no he podido pagar", "no he podido pagar una cuota a tiempo", "no he podido pagar un plazo"],
+      "responses": ["Si en el momento de vencimiento de algún pago no tienes fondos disponibles en el método de pago que hayas seleccionado Clearpay cargará en tu método de pago una penalización de 6€"]
+    }
+  ]
+}
